@@ -40,21 +40,21 @@ html, body {
     .book-content .book-post h4,
     .book-content .book-post h5,
     .book-content .book-post h6 {
-      margin-top: 1.25rem; }
+      margin-top: 1.6rem; }
     .book-content .book-post h1 {
-      font-size: 1.5rem; }
+      font-size: 1.75rem; }
     .book-content .book-post h2 {
-      font-size: 1.375rem; }
+      font-size: 1.5rem; }
     .book-content .book-post h3 {
       font-size: 1.25rem; }
     .book-content .book-post h4 {
-      font-size: 1.125rem; }
-    .book-content .book-post h5 {
       font-size: 1rem; }
-    .book-content .book-post h6 {
+    .book-content .book-post h5 {
       font-size: 0.875rem; }
+    .book-content .book-post h6 {
+      font-size: 0.8125rem; }
     .book-content .book-post p {
-      margin-bottom: 0.8rem; }
+      margin-bottom: 1rem; }
     .book-content .book-post hr {
       border: 0.5px solid #ddd;
       background-color: #ddd;
@@ -72,8 +72,8 @@ html, body {
           text-align: left; }
     .book-content .book-post ul,
     .book-content .book-post ol {
-      list-style: outside;
-      margin-left: 1rem; }
+      list-style-position: outside;
+      margin: 0 0 1.4rem 2rem; }
       .book-content .book-post ul ol,
       .book-content .book-post ol ol {
         margin-top: 0;
