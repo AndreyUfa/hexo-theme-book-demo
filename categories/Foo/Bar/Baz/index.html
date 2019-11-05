@@ -15,7 +15,7 @@
         
     </title>
 
-    <!-- Spectre.css framework (v0.5.8) -->
+    <!-- Spectre.css framework -->
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
@@ -28,23 +28,26 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
     <!-- theme css & js -->
-    <link rel="stylesheet" href="/hexo-theme-book-demo/css/spectre_custom.css">
     <link rel="stylesheet" href="/hexo-theme-book-demo/css/book.css">
     <script src="/hexo-theme-book-demo/js/book.js"></script>
 
     <!-- tocbot -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
-
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
     
     <!-- katex -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 
     
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
 </head>
 
 <body>
@@ -116,6 +119,7 @@
 
   
       <div class="book-archive-years">
+          <h5>2013</h5>
           <ul class="archive-list-item">
           
               <li>
