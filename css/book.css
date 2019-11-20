@@ -14,7 +14,7 @@ html, body {
   font-family: 'Noto Sans TC', 'Noto Sans SC', 'Noto Sans', sans-serif; }
   @media all and (min-width: 960px) {
     .book-container {
-      padding: 1.875rem 2.25rem; } }
+      padding: 2rem 3rem; } }
   @media all and (max-width: 959px) {
     .book-container {
       padding: 0 1rem; } }
@@ -191,6 +191,7 @@ img {
     color: #2f2f2f; }
 
 .book-sidebar .sidebar-content {
+  font-size: 0.875rem;
   padding-right: 1rem;
   display: none; }
   .book-sidebar .sidebar-content ul {
@@ -200,6 +201,21 @@ img {
       margin: 0 0 0 0.5rem; }
   .book-sidebar .sidebar-content .icon {
     vertical-align: unset; }
+
+.book-sidebar .collapse-li {
+  display: flex;
+  align-items: flex-start; }
+
+.book-sidebar .collapse-span {
+  word-break: break-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  padding-right: 2px; }
+
+.book-sidebar .show {
+  white-space: normal;
+  overflow-x: unset; }
 
 .book-sidebar a {
   color: #2f2f2f; }
@@ -216,10 +232,15 @@ img {
 #disqus_thread {
   margin: 50px 0; }
 
+.utterances {
+  max-width: 95%;
+  margin: 0; }
+
 pre, .highlight {
+  font-family: consolas, Menlo, monospace;
   background: #f7f7f7;
   color: #4d4d4c;
-  line-height: 1.6rem;
+  line-height: 1.5rem;
   margin: 14px auto 14px; }
 
 .gutter, pre .meta {
@@ -229,6 +250,7 @@ pre, .highlight {
   user-select: none; }
 
 code {
+  font-family: consolas, Menlo, monospace;
   border-radius: 3px;
   padding: 2px 4px;
   overflow-wrap: break-word;
@@ -244,7 +266,7 @@ pre {
     text-shadow: none; }
 
 .highlight {
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   overflow: auto; }
   .highlight *::selection {
     background: #d6d6d6; }
